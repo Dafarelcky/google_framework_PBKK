@@ -1,0 +1,35 @@
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #495057;
+  }
+  
+  .form-control {
+    border-radius: 4px;
+  }
+  
+  .btn-primary {
+    background-color: #28a745; /* Warna hijau */
+    border-color: #28a745;
+    padding: 10px 20px;
+    display: block;
+    margin: auto; /* Tombol di tengah */
+  }
+  
+  .btn-primary:hover {
+    background-color: #218838; /* Warna hijau lebih gelap saat hover */
+    border-color: #218838;
+  }

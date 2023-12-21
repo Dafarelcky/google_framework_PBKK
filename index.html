@@ -1,0 +1,53 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registrasi Peserta</title>
+  </head>
+  <body>
+    <h1 class="text-center py-4">Registrasi Peserta</h1>
+    <form id="registrationForm" class="container">
+      <div class="mb-3">
+        <label for="Nama" class="form-label">Nama</label>
+        <input type="text" class="form-control" id="Nama" name="Nama" />
+      </div>
+      <div class="mb-3">
+        <label for="Jenis_Kelamin" class="form-label">Jenis Kelamin</label>
+        <select class="form-select" id="Jenis_Kelamin" name="Jenis_Kelamin">
+          <option value="Laki-laki">Laki-Laki</option>
+          <option value="Perempuan">Perempuan</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="Tanggal_Lahir" class="form-label">Tanggal Lahir</label>
+        <input
+          type="date"
+          class="form-control"
+          id="Tanggal_Lahir"
+          name="Tanggal_Lahir"
+        />
+      </div>
+      <div class="mb-3">
+        <label for="No_HP" class="form-label">No HP</label>
+        <input type="tel" class="form-control" id="No_HP" name="No_HP" />
+      </div>
+      <div class="mb-3">
+        <label for="Alamat" class="form-label">Alamat</label>
+        <textarea class="form-control" id="Alamat" name="Alamat"></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
