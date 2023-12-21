@@ -8,6 +8,7 @@ form.addEventListener("submit", async (e) => {
   try {
     const response = await fetch("https://script.google.com/macros/s/AKfycbwvvxqJwWR8asqqmGNBq4y_M_W0RNTpBfV97wsGoMBjEs3YBW0mgjUsJHln1nYdfdR2/exec", {
       redirect: "follow",
+      mode: 'no-cors',
       method: "POST",
       body: new FormData(form),
     });
