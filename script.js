@@ -6,7 +6,7 @@ form.addEventListener("submit", async (e) => {
   e.preventDefault();
 
   try {
-    const response = await fetch("https://script.google.com/macros/s/AKfycbx-hwhvSl6Qcp580iClMwv-DKVbqqlc00ApVA569AzO0c18icajsJYWBhUXUq626F48/exec", {
+    const response = await fetch("https://script.google.com/macros/s/AKfycbwvvxqJwWR8asqqmGNBq4y_M_W0RNTpBfV97wsGoMBjEs3YBW0mgjUsJHln1nYdfdR2/exec", {
       redirect: "follow",
       method: "POST",
       body: new FormData(form),
